@@ -25,7 +25,7 @@ SECRET_KEY = '5#63h9&l&y&ft=6zz@_$%41#5y_)5gdx)mhnh1ww+du+a5ew@7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['romainb.alwaysdata.net', ]
 
 
 # Application definition
