@@ -73,16 +73,16 @@ WSGI_APPLICATION = 'mon_projet.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'HOST': 'postgresql-romainb.alwaysdata.net',
-        'ENGINE': 'django.db.backends.postgresql_psycopg2', ,
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'romainb_db',
         'USER': 'romainb',
-        'password': 'Laurag311'
+        'PASSWORD': 'Laurag311'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
