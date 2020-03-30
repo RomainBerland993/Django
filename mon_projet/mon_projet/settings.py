@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'mon_projet.wsgi.application'
 
 DATABASES = {
     'default': {
-        'HOST': 'postgresql-<romainb>.alwaysdata.net',
+        'HOST': 'postgresql-romainb.alwaysdata.net',
         'ENGINE': 'django.db.backends.postgresql_psycopg2', ,
         'NAME': 'romainb_db',
         'USER': 'romainb',
